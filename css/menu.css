@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    border: .1rem solid #204201d2;
+}
+
+.name {
+    background-color: #204201da;
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.price {
+    background-color: #ff6a0e;
+    color: white;
+    border-radius: .5rem;
+}
+
+@media screen and (min-width: 320px) {
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 1rem 0rem;
+    }
+
+    .price {
+        width: 40%;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 2rem 0rem;
+    }
+}
