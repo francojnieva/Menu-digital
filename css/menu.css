@@ -6,14 +6,61 @@
 }
 
 .card {
-    border: .1rem solid #204201d2;
     border-radius: 1rem;
+    box-shadow: 0 2px 8px 2px rgb(99, 99, 99);
 }
 
 .name {
-    background-color: #204201da;
     color: white;
     border-radius: 1rem 1rem 0 0;
+}
+
+.coffe {
+    border: .1rem solid #704000;
+}
+
+.coffe-name {
+    background-color: #704000;
+}
+
+.gaseosa {
+    border: .1rem solid #07024b;
+}
+
+.gaseosa-name {
+    background-color: #07024b;
+}
+
+.pastas {
+    border: .1rem solid #bd850d;
+}
+
+.pastas-name {
+    background-color: #bd850d;
+}
+
+.pizza {
+    border: .1rem solid #e23213;
+}
+
+.pizza-name {
+    background-color: #e23213;
+}
+
+.dessert {
+    border: .1rem solid #9b0b5f;
+}
+
+.dessert-name {
+    background-color: #9b0b5f;
+}
+
+.tragos {
+    border: .1rem solid #131414;
+}
+
+.tragos-name {
+    background-color: #131414;
 }
 
 .price {
